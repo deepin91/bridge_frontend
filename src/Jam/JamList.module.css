@@ -1,0 +1,121 @@
+@keyframes fadein {
+    from { opacity: 0.7; }
+    to {  opacity: 1; }
+  }
+
+.box1 {
+    height: 280px;
+    width: 100%;
+    background-image: url('../Jam/JamBack.jpg');
+    background-repeat : no-repeat;
+    background-size : cover;
+    text-align: center;
+
+}
+/*Play 글씨*/
+.box1 h1 {
+    color:white;
+    margin: 0px auto;
+    font-size: 52px;
+    padding-top: 100px;
+    text-shadow: 5px 2px 2px #1f1f1f;
+}
+.pbox {
+    width:1200px;
+    margin-bottom: 100px;
+    margin-top:20px;
+    
+    
+}
+/*작성 버튼 */
+.playbutton{
+    width: 140px;
+    height: 60px;
+    object-fit: cover;
+    margin-left:520px;
+    display: inline-block;
+    margin-top: 44px;
+    font-size:24px;
+    background-color: white;
+    border-radius: 0.5rem;
+    text-shadow: 1px 1px 1px #c2c2c2;
+    box-shadow: 2px 2px 2px #7e7e7e;
+}
+.playbutton:hover {
+    cursor: pointer;
+    background-color: rgb(91,120,172,0.5);
+    animation: fadein 0.4s;
+}
+.block{
+    float: left;
+    margin-right: 66.66666666666667px;
+    margin-bottom: 60px;
+    /* box-shadow: 5px 5px 20px 0 rgba(107, 107, 107, 0.4); */
+    
+}
+.imgbox {
+    width: 250px;
+    height: 250px;
+    box-shadow:  5px 5px 20px 0 rgba(107, 107, 107, 0.4);
+    margin-bottom: 24px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.img{
+    width: auto;
+    height: 250px;
+}
+.block:nth-child(4n){margin-right:0}
+
+.title{
+    margin-top:12px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/*검색창을 묶는 큰박스*/
+/* .serchbox {
+    display: block;
+    float: left;
+    height: 20px;
+    width: 1200px;
+    margin-bottom: 10px;
+} */
+
+/*검색창*/
+.search {
+    float: right;
+    margin-top: 80px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #464646;
+    width: 220px;
+    display: inline;
+    margin-right: 32px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /* position: absolute; */
+}
+
+/*검색창 돋보기 이미지*/
+.searchImg {
+    /* margin-top:24px; */
+    float: right;
+    width: 24px;
+    height: 24px;
+    margin-top: 78px;
+    right: 52px;
+    position: relative;
+}
+
+
+/*페이지*/
+.page {
+    float: left;
+    padding: 40px 48%;
+}
+.page button {
+    font-size:18px;
+}
